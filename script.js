@@ -48,7 +48,7 @@ const quizData = [
         question: "Fleabag'in eski sevgilisinin evden ayrılırken her seferinde unuttuğu eşyası neydi?",
         a: "Tişört",
         b: "Ayıcık",
-        c: "Dinazor",
+        c: "Dinozor",
         d: "Kalemlik",
         correct: "c",
         answer: ""
