@@ -1,92 +1,92 @@
 const quizData = [
     {
-        question: "Fleabag'in ölen arkadaşının ismi nedir?",
-        a: "Lisa",
-        b: "Helen",
-        c: "Boo",
-        d: "Stine",
-        correct: "c",
-        answer: ""
-    },
-    {
-        question: "Fleabag'in kafesinin teması neydi?",
-        a: "Kedi",
-        b: "Gine Domuzu",
-        c: "Tavşan",
-        d: "Kuş",
+        question: "Cebinde 11 TL'si olan Aslı 7.5 TL ekmeğe verirse kaç TL'si kalır?",
+        a: "4 TL",
+        b: "3.5 TL",
+        c: "5 TL",
+        d: "4.5 TL",
         correct: "b",
         answer: ""
     },
     {
-        question: "Fleabag'in üvey annesinden çaldığı şey neydi?",
-        a: "Heykel",
-        b: "Vazo",
-        c: "Tablo",
-        d: "Takı",
-        correct: "a",
-        answer: ""
-    },
-    {
-        question: "Fleabag'in kardeşi iş için nereye gidecekti?",
-        a: "Avusturya",
-        b: "Rusya",
-        c: "Finlandiya",
-        d: "İzlanda",
+        question: "Dolapta 13 yumurta vardı. 5 tanesi kahvaltıda yenildi sonra 24 yeni yumurta alındı. Dolapta kaç yumurta var?",
+        a: "33",
+        b: "29",
+        c: "32",
+        d: "22",
         correct: "c",
         answer: ""
     },
     {
-        question: "Fleabag ile Priest ilk nerede öpüştü?",
-        a: "Ev",
-        b: "Öpüşmedi",
-        c: "Sokak",
-        d: "Kilise",
+        question: "15 tane okunacak kitabı olan Betül 6 tanesini okumuş ve 4 yeni kitap almış. Kaç tane okunacak kitabı var?",
+        a: "12",
+        b: "10",
+        c: "11",
+        d: "13",
         correct: "d",
         answer: ""
     },
     {
-        question: "Fleabag'in eski sevgilisinin evden ayrılırken her seferinde unuttuğu eşyası neydi?",
-        a: "Tişört",
-        b: "Ayıcık",
-        c: "Dinozor",
-        d: "Kalemlik",
-        correct: "c",
-        answer: ""
-    },
-    {
-        question: "Fleabag ile Priest ilk nerede karşılaştı?",
-        a: "Kafe",
-        b: "Kilise",
-        c: "Banka",
-        d: "Aile Yemeği",
-        correct: "d",
-        answer: ""
-    },
-    {
-        question: "Fleabag ilk bölümde hangi amaçla bankaya gidiyordu?",
-        a: "Kafesi için kredi almak",
-        b: "Ev için kredi almak",
-        c: "Borç ödemek için",
-        d: "Hesap açmak için",
+        question: "İçinde 27 yolcunun olduğu otobüsten 1. durakta 5 yolcu inmiş, 2. durakta 9 yolcu inmiş 5 yolcu binmiş. Kaç yolcu var?",
+        a: "18",
+        b: "19",
+        c: "21",
+        d: "22",
         correct: "a",
         answer: ""
     },
     {
-        question: "Fleabag'in ilk bölümü ne zaman yayınlandı?",
-        a: "2014",
-        b: "2015",
-        c: "2016",
-        d: "2017",
-        correct: "c",
+        question: "120 TL parası olan Ayşe 240 TL harçlık alırsa kaç TL'si olur?",
+        a: "350 TL",
+        b: "380 TL",
+        c: "340 TL",
+        d: "360 TL",
+        correct: "d",
         answer: ""
     },
     {
-        question: "Fleabag'in eski sevgilisinin adı neydi?",
-        a: "Sam",
-        b: "Harry",
-        c: "James",
-        d: "Michael",
+        question: "Kalemliğinde 14 kalemi olan Esra 3 kalemini arkadaşına vermiş ve 2 kalemi kırılmış. Kaç kalem kaldı?",
+        a: "11",
+        b: "9",
+        c: "10",
+        d: "8",
         correct: "b",
+        answer: ""
+    },
+    {
+        question: "Sabah 2 saat öğlen 1 buçuk saat akşam 2 saat kitap okuyan Furkan toplam kaç saat kitap okumuş olur?",
+        a: "4.5 saat",
+        b: "5 saat",
+        c: "5.5 saat",
+        d: "6.5 saat",
+        correct: "c",
+        answer: ""
+    },
+    {
+        question: "13. kattaki asansör önce 7 kat aşağı sonra 5 kat yukarı sonra yine 4 kat aşağı inerse kaçıncı katta olur?",
+        a: "7. kat",
+        b: "8. kat",
+        c: "6. kat",
+        d: "5. kat",
+        correct: "a",
+        answer: ""
+    },
+    {
+        question: "29 TL parası olan Alper 13 TL'ye dondurma 11TL'ye çikolata almış. Alperin ne kadar parası kalır?",
+        a: "6 TL",
+        b: "10 TL",
+        c: "5 TL",
+        d: "9 TL",
+        correct: "c",
+        answer: ""
+    },
+    {
+        question: "24 tane ekmek olan fırında sırasıyla 4, 6, 3 ekmek satılmış. Fırında kaç ekmek kalır?",
+        a: "9",
+        b: "14",
+        c: "13",
+        d: "11",
+        correct: "d",
         answer: ""
     }
 ]
@@ -177,7 +177,7 @@ nextBtn.addEventListener('click', () => {
                     ${cards.innerHTML}                
                 </div>
                 <div class="buttons">
-                    <button class="reload" onclick="location.reload()">Reload</button>                
+                    <button class="reload" onclick="location.reload()">Tekrar Çöz</button>                
                 </div>
             `
         }        
